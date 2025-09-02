@@ -1,0 +1,32 @@
+name: fintrack_app
+description: A finance tracking Flutter app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.5
+  charts_flutter: ^0.12.0
+  intl: ^0.17.0
+  google_fonts: ^6.0.0
+  sqflite: ^2.2.7+4
+  path: ^1.9.1
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
